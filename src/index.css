@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+  background: url('./assetc/image/background.jpg');
+  overflow-x: hidden;
 }
 
 code {

@@ -1,0 +1,19 @@
+.aboutme_text{
+    color: darkslategray;
+    font: smaller;
+    line-height: 22px;
+    white-space: pre-line;
+    text-align: justify;
+}
+.rtimeline .timline_cont .timeline_title{
+    font-size: 16px;
+    font-weight: 500 !important;
+}
+.rtimeline .timline_cont .timeline_date {
+    color: darkslategray;
+}
+.rtimeline .timline_cont .timeline_desc{
+    color: gray;
+    font-size: small;
+    margin-top: 20px;
+}

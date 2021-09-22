@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, Grid } from "@material-ui/core";
+import "./App.css";
+import Header from "./components/header/Header";
+import Footer from "./components/Footer/Footer";
+import Profile from "./components/profile/Profile";
+import Resume from "./pages/Resume/Resume";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Portfolio from "./pages/Protfolio/Portfolio";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Container className="top_margin">
+        <Grid container spacing={7}>
+          <Grid item xs={12} sm={12} md={4} lg={3}>
+            <Profile />
+          </Grid>
+          <Grid item xs>
+            <Router>
+              <Header />
+              <div className="main-content container_shadow">
+                <Switch>
+                  <Route path="/portfolio" component={Portfolio} />
+                  <Route exact path="/" component={Resume} />
+                </Switch>
+              </div>
+            </Router>
+            <Footer />
+          </Grid>
+        </Grid>
+      </Container>
     </div>
   );
-}
+};
 
 export default App;
