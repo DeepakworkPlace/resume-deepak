@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafafa;
+  /* background: #fafafa;
   background: url('./assetc/image/background.jpg');
+  background-repeat: repeat;
   overflow-x: hidden;
+  overflow-y: scroll; */
+  background-image: url(./assetc/image/bg.png);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
 }
 
 code {

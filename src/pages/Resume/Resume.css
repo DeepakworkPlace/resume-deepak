@@ -17,3 +17,69 @@
     font-size: small;
     margin-top: 20px;
 }
+.service{
+    height: 100%;
+    text-align: center;
+}
+.service_icon > .MuiSvgIcon-root {
+    font-size: 40px !important;
+    margin-left: 0 !important;
+    font-weight: 300 !important;
+    color: darkslategray;
+}
+.service .service_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+    text-align: center;
+}
+.service .service_desc{
+    color: #989898 !important;
+    border-color: var(--main-color) !important;
+    margin-right: 5px !important;
+    text-align: center;
+}
+.skill{
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 48px 0px rgb(4, 6, 4, 0.08) !important;
+    min-height: 186px;
+    height: 100%;
+}
+.skill .skill_title{
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+}
+.skill .skill_desc{
+    display: flex;
+    align-items: center;
+    color: #989898 !important;
+    font-weight: 500 !important;
+    line-height: 18px !important;
+}
+.skill .skill_desc .skill_dot{
+    background-color: var(--main-color);
+    border-color: var(--main-color) !important;
+    padding: 2px !important;
+    margin-right: 5px !important;
+}
+/* Contect */
+.contactinfo_item{
+    font-size: 14px !important;
+    color: #787878;
+    line-height: 25px !important;
+}
+.contactinfo_item > span {
+    color: black;
+    font-weight: 500;
+} 
+.contactinfo_s_container{ 
+    margin-top: 20px;
+}
+.contactinfo_social >a > .MuiSvgIcon-root{
+    font-size: 16px !important;
+    margin-right: 10px;
+    color: black;
+}
