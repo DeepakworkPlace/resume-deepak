@@ -1,9 +1,9 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { NavLink, withRouter } from "react-router-dom";
+import { Link, NavLink, withRouter } from "react-router-dom";
 import HomeIcon from "@material-ui/icons/Home";
-import resumeData from "../../utils/rData";
+import Data from "../../utils/rData";
 import CustomButton from "../Button/CustomButton";
 import { Telegram } from "@material-ui/icons";
 import "./Header.css";
@@ -15,7 +15,7 @@ const Header = (props) => {
     <Navbar expand="lg" className="header">
       <Nav.Link as={NavLink} to="/">
         <Navbar.Brand className="header_home">
-          <HomeIcon />
+          <HomeIcon style={{ color: "#fff" }} />
         </Navbar.Brand>
       </Nav.Link>
       <Navbar.Toggle />
@@ -32,19 +32,21 @@ const Header = (props) => {
             as={NavLink}
             to="/portfolio"
             className={
-              pathName == "/portfolio" ?  "header_link_active" : "header_link"
+              pathName == "/portfolio" ? "header_link_active" : "header_link"
             }
           >
             Protfolio
           </Nav.Link>
         </Nav>
         <div className="header_right">
-          {Object.keys(resumeData.socials).map((key) => (
-            <a href={resumeData.socials[key].link} target="_blank">
-              {resumeData.socials[key].icon}
-            </a>
+          {Object.keys(Data.socials).map((key) => (
+            <Link href={Data.socials[key].link} target="_blank">
+              {Data.socials[key].icon}
+            </Link>
           ))}
-          <CustomButton text={"Hire Me"} icon={<Telegram />} />
+          <Link to="/contact-us" style={{ textDecoration: "none" }}>
+            <CustomButton text={"Hire Me"} icon={<Telegram />} />
+          </Link>
         </div>
       </Navbar.Collapse>
     </Navbar>

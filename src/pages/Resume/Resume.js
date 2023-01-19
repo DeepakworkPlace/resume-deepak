@@ -2,7 +2,6 @@ import React from "react";
 import {
   TimelineItem,
   TimelineContent,
-  Timeline,
   TimelineDot,
 } from "@material-ui/lab";
 import { Grid, Paper, TextField, Typography } from "@material-ui/core";
@@ -17,7 +16,7 @@ import CustomButton from "../../components/Button/CustomButton";
 const Resume = () => {
   return (
     <div>
-      <Grid container className="section text_pb">
+      <Grid container className="section text_pb" style={{ padding: 50 }}>
         {/* About me */}
         <Grid item className="section_title text_mb">
           <span></span>
@@ -25,7 +24,7 @@ const Resume = () => {
         </Grid>
         <Grid item xs={12}>
           <Typography variant="body2" className="aboutme_text">
-            {resumeData.aboutme}
+            {resumeData.Aboutme}
           </Typography>
         </Grid>
       </Grid>
@@ -129,7 +128,7 @@ const Resume = () => {
         </Grid>
       </Grid>
       {/* Contact */}
-      <Grid container container spacing={5} className="section text_pb text_pt">
+      <Grid container spacing={5} className="section text_pb text_pt">
         {/* Contact Form */}
         <Grid item xs={12} lg={7}>
           <Grid container>
@@ -192,7 +191,7 @@ const Resume = () => {
                 <Grid item xs={12}>
                   <Typography className="contactinfo_item">
                     <span>Skype:-</span>
-                    {rData.phone}
+                    {rData.skype}
                   </Typography>
                 </Grid>
               </Grid>

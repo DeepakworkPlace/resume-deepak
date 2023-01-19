@@ -12,6 +12,7 @@ export default {
   email: "deepak.ds.0621@gmail.com",
   address: "H.no. 87 Khanowal Pb. In.",
   phone: "9872793808",
+  skype: "@deepak_808",
 
   experience: [
     {
@@ -67,40 +68,44 @@ export default {
   skills: [
     {
       title: "Fronend",
-      descrption: ["Reactjs", "javascript", "CSS", "html"],
+      descrption: ["Reactjs", "Javascript", "CSS", "HTML5"],
+    },
+    {
+      title: "MERN",
+      descrption: ["MongoDB", "Express", "React", "Node"]
     },
     {
       title: "Api",
-      descrption: ["Axiox", "restAPI"],
+      descrption: ["Axiox", "restAPI", "Shopifi API"],
     },
     {
       title: 'Python',
-      descrption:['Python Syntax','OOPS','GUI','QT5']
+      descrption: ['Python Syntax', 'OOPS', 'GUI', 'QT5']
     }
   ],
 
   socials: {
-    facbook: {
+    Facbook: {
       link: "https://www.facebook.com/deepak76961",
       text: "Deepak Singh",
       icon: <FacebookIcon />,
     },
-    linkedin: {
+    Linkedin: {
       link: "https://www.linkedin.com/in/deepak-kumar-374149118/",
       text: "Deepak Kumar",
       icon: <LinkedInIcon />,
     },
-    instagram: {
+    Instagram: {
       link: "https://www.instagram.com/sdeep_singh0001/",
       text: "Deepak Kumar",
       icon: <InstagramIcon />,
     },
-    gitHub: {
+    GitHub: {
       link: "https://github.com/deepak-808",
       text: "Deepak Kumar",
       icon: <GitHubIcon />,
     },
   },
-  aboutme:
+  Aboutme:
     "I am a dedicated, hardworking, self-learning and proactive computer science engineer and a front end web developer. I have 6 months internship experience in React JS and I am currently looking for a job in Reactjs profile. \n\nDeep understanding of technology. Proven ability to be a strong professional with good knowledge of new technologies and my skills are in React Js HTML CSS and Javascript.\nApart from being a member of the campus sports team, I have participated in tournaments and achieved goals, as well as participated in cultural events.",
 };

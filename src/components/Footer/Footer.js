@@ -1,31 +1,28 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
-import resumeData from "../../utils/rData";
+import Data from "../../utils/rData";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
       <div sticky="bottom" className="footer">
         <div className="footer_left">
-          <Typography>{resumeData.name}</Typography>
-          {Object.keys(resumeData.socials).map((key) => (
-            <a href={resumeData.socials[key].link} target="_blank">
-              {resumeData.socials[key].icon}
-            </a>
+          <Typography>{Data.name}</Typography>
+          {Object.keys(Data.socials).map((key) => (
+            <Link href={Data.socials[key].link} target="_blank">
+              {Data.socials[key].icon}
+            </Link>
           ))}
         </div>
         <div className="footer_right">
-          <Typography className="footer_copyryt_text">
+          <Typography className="footer_copyryt_text" style={{ color: "#fff" }}>
             Developer and Design by {""}
-            <a href="/" target="_blank">
+            <a href="/" target="_blank" >
               Deepak Kumar
             </a>
-            <br />
-            Clone idea from{" "}
-            <a href="https://themeforest.net/user/templates" target="_blank">
-              Travonline.
-            </a>
+
           </Typography>
         </div>
       </div>

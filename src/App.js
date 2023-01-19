@@ -7,6 +7,8 @@ import Profile from "./components/profile/Profile";
 import Resume from "./pages/Resume/Resume";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Portfolio from "./pages/Protfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
+
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
               <div className="main-content container_shadow">
                 <Switch>
                   <Route path="/portfolio" component={Portfolio} />
+                  <Route path="/contact-us" component={Contact} />
                   <Route exact path="/" component={Resume} />
                 </Switch>
               </div>
