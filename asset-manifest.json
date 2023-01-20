@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/resume-deepak/static/css/main.0cd98925.chunk.css",
-    "main.js": "/resume-deepak/static/js/main.5c12246e.chunk.js",
-    "main.js.map": "/resume-deepak/static/js/main.5c12246e.chunk.js.map",
-    "runtime-main.js": "/resume-deepak/static/js/runtime-main.350f37fd.js",
-    "runtime-main.js.map": "/resume-deepak/static/js/runtime-main.350f37fd.js.map",
+    "main.css": "/resume-deepak/static/css/main.d21f0e53.chunk.css",
+    "main.js": "/resume-deepak/static/js/main.44092c2a.chunk.js",
+    "main.js.map": "/resume-deepak/static/js/main.44092c2a.chunk.js.map",
+    "runtime-main.js": "/resume-deepak/static/js/runtime-main.c15611bc.js",
+    "runtime-main.js.map": "/resume-deepak/static/js/runtime-main.c15611bc.js.map",
     "static/css/2.c0897e43.chunk.css": "/resume-deepak/static/css/2.c0897e43.chunk.css",
-    "static/js/2.9a36177b.chunk.js": "/resume-deepak/static/js/2.9a36177b.chunk.js",
-    "static/js/2.9a36177b.chunk.js.map": "/resume-deepak/static/js/2.9a36177b.chunk.js.map",
-    "static/js/3.d0048340.chunk.js": "/resume-deepak/static/js/3.d0048340.chunk.js",
-    "static/js/3.d0048340.chunk.js.map": "/resume-deepak/static/js/3.d0048340.chunk.js.map",
+    "static/js/2.59eb6ea3.chunk.js": "/resume-deepak/static/js/2.59eb6ea3.chunk.js",
+    "static/js/2.59eb6ea3.chunk.js.map": "/resume-deepak/static/js/2.59eb6ea3.chunk.js.map",
+    "static/js/3.f15ee42b.chunk.js": "/resume-deepak/static/js/3.f15ee42b.chunk.js",
+    "static/js/3.f15ee42b.chunk.js.map": "/resume-deepak/static/js/3.f15ee42b.chunk.js.map",
     "index.html": "/resume-deepak/index.html",
     "static/css/2.c0897e43.chunk.css.map": "/resume-deepak/static/css/2.c0897e43.chunk.css.map",
-    "static/css/main.0cd98925.chunk.css.map": "/resume-deepak/static/css/main.0cd98925.chunk.css.map",
-    "static/js/2.9a36177b.chunk.js.LICENSE.txt": "/resume-deepak/static/js/2.9a36177b.chunk.js.LICENSE.txt",
+    "static/css/main.d21f0e53.chunk.css.map": "/resume-deepak/static/css/main.d21f0e53.chunk.css.map",
+    "static/js/2.59eb6ea3.chunk.js.LICENSE.txt": "/resume-deepak/static/js/2.59eb6ea3.chunk.js.LICENSE.txt",
     "static/media/Deepak-Kumar.66d24673.pdf": "/resume-deepak/static/media/Deepak-Kumar.66d24673.pdf",
     "static/media/Deepak.4369cff8.jpeg": "/resume-deepak/static/media/Deepak.4369cff8.jpeg",
     "static/media/index.css": "/resume-deepak/static/media/bg.54815803.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.350f37fd.js",
+    "static/js/runtime-main.c15611bc.js",
     "static/css/2.c0897e43.chunk.css",
-    "static/js/2.9a36177b.chunk.js",
-    "static/css/main.0cd98925.chunk.css",
-    "static/js/main.5c12246e.chunk.js"
+    "static/js/2.59eb6ea3.chunk.js",
+    "static/css/main.d21f0e53.chunk.css",
+    "static/js/main.44092c2a.chunk.js"
   ]
 }
