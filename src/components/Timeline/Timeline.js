@@ -7,7 +7,7 @@ import {
   TimelineContent,
   TimelineDot,
 } from "@material-ui/lab";
-import WorkIcon from "@material-ui/icons/Work";
+// import WorkIcon from "@material-ui/icons/Work";
 import { Typography } from "@material-ui/core";
 import "./Timeline.css";
 

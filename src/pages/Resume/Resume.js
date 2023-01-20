@@ -13,6 +13,7 @@ import "./Resume.css";
 import resumeData from "../../utils/rData";
 import rData from "../../utils/rData";
 import CustomButton from "../../components/Button/CustomButton";
+import Contact from "../Contact/Contact";
 const Resume = () => {
   return (
     <div>
@@ -130,7 +131,8 @@ const Resume = () => {
       {/* Contact */}
       <Grid container spacing={5} className="section text_pb text_pt">
         {/* Contact Form */}
-        <Grid item xs={12} lg={7}>
+        <Contact />
+        {/* <Grid item xs={12} lg={7}>
           <Grid container>
             <Grid item className="section_title text_mb">
               <span></span>
@@ -160,9 +162,9 @@ const Resume = () => {
               </Grid>
             </Grid>
           </Grid>
-        </Grid>
+        </Grid> */}
         {/* Contact Information */}
-        <Grid item xs={12} lg={5}>
+        <Grid item xs={12} lg={5} style={{ justifyContent: 'center' }}>
           <Grid container>
             <Grid item className="section_title text_mb">
               <span></span>
